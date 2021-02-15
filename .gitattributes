@@ -1,0 +1,21 @@
+# Auto detect text files and perform LF normalization. Handles files NOT listed below.
+* text=auto eol=lf
+
+# Text files
+*.bat          text eol=crlf
+*.gradle       text diff=java
+*.java         text diff=java
+*.json         text
+*.mcmeta       text
+*.md           text
+*.properties   text
+*.sh           text
+*.toml         text
+
+.editorconfig  text
+.gitattributes text
+.gitconfig     text
+
+# Binary files
+*.jar          binary
+*.png          Binary
