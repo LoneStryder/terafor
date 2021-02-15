@@ -1,9 +1,10 @@
-package com.example.examplemod;
+package stryder.terafor;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.RegistryEvent;
+import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.InterModComms;
 import net.minecraftforge.fml.common.Mod;
@@ -24,16 +25,16 @@ import java.util.stream.Collectors;
 public class Terafor {
 	// Directly reference a log4j logger.
 	private static final Logger LOGGER = LogManager.getLogger();
-	private static final String MOD_ID = "terafor";
+	public static final String MOD_ID = "terafor";
 
 	public Terafor() {
 		final IEventBus MOD_EVENT_BUS = FMLJavaModLoadingContext.get().getModEventBus();
 
 		// Register methods for modloading
 		MOD_EVENT_BUS.addListener(this::setup);
+		MOD_EVENT_BUS.addListener(this::clientSetup);
 		MOD_EVENT_BUS.addListener(this::enqueueIMC);
 		MOD_EVENT_BUS.addListener(this::processIMC);
-		MOD_EVENT_BUS.addListener(this::doClientStuff);
 
 		// Register ourselves for server and other game events we are interested in
 		MinecraftForge.EVENT_BUS.register(this);
