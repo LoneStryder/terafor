@@ -19,7 +19,5 @@ build
 
 # Misc
 eclipse
+logs
 run
-
-# Forge MDK
-forge*changelog.txt
