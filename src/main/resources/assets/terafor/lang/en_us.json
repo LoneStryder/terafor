@@ -7,6 +7,10 @@
 	"item.terafor.silver_pickaxe": "Silver Pickaxe",
 	"item.terafor.silver_shovel": "Silver Shovel",
 	"item.terafor.silver_sword": "Silver Sword",
+	"item.terafor.silver_helmet": "Silver Helmet",
+	"item.terafor.silver_chestplate": "Silver Chestplate",
+	"item.terafor.silver_leggings": "Silver Leggings",
+	"item.terafor.silver_boots": "Silver Boots",
 
 	"itemGroup.terafor": "Terafor"
 }
