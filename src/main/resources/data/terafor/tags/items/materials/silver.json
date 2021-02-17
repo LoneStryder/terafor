@@ -1,0 +1,12 @@
+{
+	"replace": false,
+	"values": [
+		"terafor:silver_block",
+		"terafor:silver_ingot",
+		"terafor:silver_sword",
+		"terafor:silver_pickaxe",
+		"terafor:silver_shovel",
+		"terafor:silver_axe",
+		"terafor:silver_hoe"
+	]
+}
