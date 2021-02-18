@@ -1,0 +1,9 @@
+{
+	"type": "minecraft:blasting",
+	"ingredient": {
+		"item": "terafor:silver_ore"
+	},
+	"result": "terafor:silver_ingot",
+	"experience": 0.8,
+	"cookingtime": 100
+}
