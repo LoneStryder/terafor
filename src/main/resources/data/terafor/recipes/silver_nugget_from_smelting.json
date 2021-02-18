@@ -1,0 +1,35 @@
+{
+	"type": "minecraft:smelting",
+	"ingredient": [
+		{
+			"item": "terafor:silver_pickaxe"
+		},
+		{
+			"item": "terafor:silver_shovel"
+		},
+		{
+			"item": "terafor:silver_axe"
+		},
+		{
+			"item": "terafor:silver_hoe"
+		},
+		{
+			"item": "terafor:silver_sword"
+		},
+		{
+			"item": "terafor:silver_helmet"
+		},
+		{
+			"item": "terafor:silver_chestplate"
+		},
+		{
+			"item": "terafor:silver_leggings"
+		},
+		{
+			"item": "terafor:silver_boots"
+		}
+	],
+	"result": "terafor:silver_nugget",
+	"experience": 0.1,
+	"cookingtime": 200
+}

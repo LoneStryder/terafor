@@ -1,13 +1,12 @@
 {
 	"type": "minecraft:crafting_shapeless",
-	"group": "silver_ingot",
 	"ingredients": [
 		{
-			"item": "terafor:silver_block"
+			"item": "terafor:silver_ingot"
 		}
 	],
 	"result": {
-		"item": "terafor:silver_ingot",
+		"item": "terafor:silver_nugget",
 		"count": 9
 	}
 }
