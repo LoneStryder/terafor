@@ -8,11 +8,12 @@ import net.minecraft.util.SoundEvent;
 import net.minecraft.util.SoundEvents;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.api.distmarker.OnlyIn;
+import stryder.terafor.Terafor;
 
 import java.util.function.Supplier;
 
 public enum ModArmorMaterials implements IArmorMaterial {
-	SILVER("silver", 13, new int[]{2, 4, 5, 2}, 20, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 0.0F, 0.0F, () -> {
+	SILVER(Terafor.MOD_ID + ":silver", 13, new int[]{2, 4, 5, 2}, 20, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 0.0F, 0.0F, () -> {
 		return Ingredient.fromItems(ModItems.SILVER_INGOT.get());
 	});
 

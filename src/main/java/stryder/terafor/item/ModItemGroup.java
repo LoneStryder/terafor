@@ -8,8 +8,8 @@ import stryder.terafor.Terafor;
 
 public class ModItemGroup {
 	public static final ItemGroup INSTANCE = (new ItemGroup(Terafor.MOD_ID) {
-		@Override
 		@OnlyIn(Dist.CLIENT)
+		@Override
 		public ItemStack createIcon() {
 			return ModItems.SILVER_INGOT.get().getDefaultInstance();
 		}
