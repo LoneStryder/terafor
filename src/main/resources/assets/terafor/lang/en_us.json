@@ -1,17 +1,41 @@
 {
+	"block.terafor.copper_block": "Block of Copper",
 	"block.terafor.silver_block": "Block of Silver",
+
+	"block.terafor.copper_ore": "Copper Ore",
 	"block.terafor.silver_ore": "Silver Ore",
 
+	"item.terafor.copper_axe": "Copper Axe",
 	"item.terafor.silver_axe": "Silver Axe",
+
+	"item.terafor.copper_hoe": "Copper Hoe",
 	"item.terafor.silver_hoe": "Silver Hoe",
+
+	"item.terafor.copper_ingot": "Copper Ingot",
 	"item.terafor.silver_ingot": "Silver Ingot",
+
+	"item.terafor.copper_nugget": "Copper Nugget",
 	"item.terafor.silver_nugget": "Silver Nugget",
+
+	"item.terafor.copper_pickaxe": "Copper Pickaxe",
 	"item.terafor.silver_pickaxe": "Silver Pickaxe",
+
+	"item.terafor.copper_shovel": "Copper Shovel",
 	"item.terafor.silver_shovel": "Silver Shovel",
+
+	"item.terafor.copper_sword": "Copper Sword",
 	"item.terafor.silver_sword": "Silver Sword",
+
+	"item.terafor.copper_helmet": "Copper Helmet",
 	"item.terafor.silver_helmet": "Silver Helmet",
+
+	"item.terafor.copper_chestplate": "Copper Chestplate",
 	"item.terafor.silver_chestplate": "Silver Chestplate",
+
+	"item.terafor.copper_leggings": "Copper Leggings",
 	"item.terafor.silver_leggings": "Silver Leggings",
+
+	"item.terafor.copper_boots": "Copper Boots",
 	"item.terafor.silver_boots": "Silver Boots",
 
 	"itemGroup.terafor": "Terafor"

@@ -7,6 +7,9 @@ import net.minecraft.util.LazyValue;
 import java.util.function.Supplier;
 
 public enum ModItemTiers implements IItemTier {
+	COPPER(1, 193, 5.0F, 1.0F, 11, () -> {
+		return Ingredient.fromItems(ModItems.COPPER_INGOT.get());
+	}),
 	SILVER(2, 160, 9.0F, 1.0F, 18, () -> {
 		return Ingredient.fromItems(ModItems.SILVER_INGOT.get());
 	});

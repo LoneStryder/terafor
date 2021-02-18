@@ -3,10 +3,15 @@
 	"values": [
 		"terafor:silver_block",
 		"terafor:silver_ingot",
+		"terafor:silver_nugget",
 		"terafor:silver_sword",
 		"terafor:silver_pickaxe",
 		"terafor:silver_shovel",
 		"terafor:silver_axe",
-		"terafor:silver_hoe"
+		"terafor:silver_hoe",
+		"terafor:silver_helmet",
+		"terafor:silver_chestplate",
+		"terafor:silver_leggings",
+		"terafor:silver_boots"
 	]
 }

@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "copper_ingot",
+	"pattern": [
+		"###",
+		"###",
+		"###"
+	],
+	"key": {
+		"#": {
+			"item": "terafor:copper_nugget"
+		}
+	},
+	"result": {
+		"item": "terafor:copper_ingot"
+	}
+}

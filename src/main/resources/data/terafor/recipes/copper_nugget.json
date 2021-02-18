@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "terafor:copper_ingot"
+		}
+	],
+	"result": {
+		"item": "terafor:copper_nugget",
+		"count": 9
+	}
+}

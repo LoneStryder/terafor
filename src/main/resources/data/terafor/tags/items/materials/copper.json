@@ -1,0 +1,17 @@
+{
+	"replace": false,
+	"values": [
+		"terafor:copper_block",
+		"terafor:copper_ingot",
+		"terafor:copper_nugget",
+		"terafor:copper_sword",
+		"terafor:copper_pickaxe",
+		"terafor:copper_shovel",
+		"terafor:copper_axe",
+		"terafor:copper_hoe",
+		"terafor:copper_helmet",
+		"terafor:copper_chestplate",
+		"terafor:copper_leggings",
+		"terafor:copper_boots"
+	]
+}

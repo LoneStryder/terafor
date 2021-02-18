@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"group": "copper_ingot",
+	"ingredients": [
+		{
+			"item": "terafor:copper_block"
+		}
+	],
+	"result": {
+		"item": "terafor:copper_ingot",
+		"count": 9
+	}
+}

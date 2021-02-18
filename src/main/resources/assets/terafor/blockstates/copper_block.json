@@ -1,0 +1,7 @@
+{
+	"variants": {
+		"": {
+			"model": "terafor:block/copper_block"
+		}
+	}
+}

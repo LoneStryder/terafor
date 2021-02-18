@@ -1,0 +1,35 @@
+{
+	"type": "minecraft:smelting",
+	"ingredient": [
+		{
+			"item": "terafor:copper_pickaxe"
+		},
+		{
+			"item": "terafor:copper_shovel"
+		},
+		{
+			"item": "terafor:copper_axe"
+		},
+		{
+			"item": "terafor:copper_hoe"
+		},
+		{
+			"item": "terafor:copper_sword"
+		},
+		{
+			"item": "terafor:copper_helmet"
+		},
+		{
+			"item": "terafor:copper_chestplate"
+		},
+		{
+			"item": "terafor:copper_leggings"
+		},
+		{
+			"item": "terafor:copper_boots"
+		}
+	],
+	"result": "terafor:copper_nugget",
+	"experience": 0.1,
+	"cookingtime": 200
+}

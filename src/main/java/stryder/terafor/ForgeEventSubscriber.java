@@ -15,6 +15,7 @@ import stryder.terafor.world.gen.feature.ModFeatures;
 public class ForgeEventSubscriber {
 	@SubscribeEvent(priority = EventPriority.HIGH)
 	public static void onBiomeLoad(final BiomeLoadingEvent event) {
+		event.getGeneration().getFeatures(GenerationStage.Decoration.UNDERGROUND_ORES).add(() -> ModFeatures.ORE_COPPER);
 		event.getGeneration().getFeatures(GenerationStage.Decoration.UNDERGROUND_ORES).add(() -> ModFeatures.ORE_SILVER);
 	}
 
@@ -25,7 +26,7 @@ public class ForgeEventSubscriber {
 			if (ModUtils.hasItemTag(((LivingEntity) true_source).getHeldItemMainhand(), ModUtils.modResLoc("materials/silver"))) {
 				if (event.getEntityLiving().isEntityUndead()) {
 					event.setAmount(event.getAmount() * 1.2F);
-					event.getEntityLiving().setFire(3); // Might change depending on balance feedback.
+					//event.getEntityLiving().setFire(3); Disabled for now.
 				}
 			}
 		}
