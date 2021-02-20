@@ -10,7 +10,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import stryder.terafor.block.ModBlocks;
 import stryder.terafor.item.ModItems;
-import stryder.terafor.util.ModUtils;
+import stryder.terafor.util.helper.LocationHelper;
 import stryder.terafor.world.gen.feature.ModFeatures;
 
 @Mod(Terafor.MOD_ID)
@@ -33,8 +33,8 @@ public class Terafor {
 	}
 
 	private void setup(final FMLCommonSetupEvent event) {
-		Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, ModUtils.modResLoc("ore_copper"), ModFeatures.ORE_COPPER);
-		Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, ModUtils.modResLoc("ore_silver"), ModFeatures.ORE_SILVER);
+		Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, LocationHelper.modPrefix("ore_copper"), ModFeatures.ORE_COPPER);
+		Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, LocationHelper.modPrefix("ore_silver"), ModFeatures.ORE_SILVER);
 	}
 
 	private void clientSetup(final FMLClientSetupEvent event) {
