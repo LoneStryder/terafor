@@ -9,8 +9,11 @@ buildscript {
 	}
 }
 apply plugin: 'net.minecraftforge.gradle'
-apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
+//apply plugin: 'eclipse'
+apply plugin: 'idea'
+
+import net.minecraftforge.gradle.common.task.SignJar
 
 version = mod_version
 group = 'stryder.terafor' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
@@ -78,28 +81,53 @@ dependencies {
 jar {
 	manifest {
 		attributes([
-			"Specification-Title": "terafor",
-			"Specification-Vendor": "stryder",
+			"Specification-Title": "${mod_name}",
+			"Specification-Vendor": "${mod_vendor}",
 			"Specification-Version": "1",
 			"Implementation-Title": project.name,
 			"Implementation-Version": "${version}",
-			"Implementation-Vendor" :"stryder",
+			"Implementation-Vendor" :"${mod_vendor}",
 			"Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ")
 		])
 	}
 }
 
 jar.finalizedBy('reobfJar')
+//publish.dependsOn('reobfJar')
 
 publishing {
 	publications {
-		mavenJava(MavenPublication) {
+		gpr(MavenPublication) {
+			groupId = project.group
+			artifactId = project.archivesBaseName
+			version = project.version
 			artifact jar
 		}
 	}
 	repositories {
 		maven {
-			url "file:///${project.projectDir}/mcmodsrepo"
+			name = 'GitHubPackages'
+			url = 'https://maven.pkg.github.com/lonestryder/terafor-forge'
+			credentials {
+				username = project.findProperty('gpr.user')
+				password = project.findProperty('gpr.key')
+			}
 		}
 	}
 }
+
+task signJar(type: SignJar, dependsOn: jar) {
+	// Skip if keyStore property is absent.
+	onlyIf {
+		project.hasProperty('keyStore')
+	}
+
+	keyStore = project.findProperty('keyStore')
+	alias = project.findProperty('keyStoreAlias')
+	storePass = project.findProperty('keyStorePass')
+	keyPass = project.findProperty('keyStoreKeyPass')
+	inputFile = jar.archivePath
+	outputFile = jar.archivePath
+}
+
+build.dependsOn signJar
