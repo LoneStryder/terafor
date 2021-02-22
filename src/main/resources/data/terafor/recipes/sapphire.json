@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "terafor:sapphire_block"
+		}
+	],
+	"result": {
+		"item": "terafor:sapphire",
+		"count": 9
+	}
+}

@@ -10,6 +10,12 @@ public enum ModItemTiers implements IItemTier {
 	COPPER(1, 193, 5.0F, 1.0F, 11, () -> {
 		return Ingredient.fromItems(ModItems.COPPER_INGOT.get());
 	}),
+	RUBY(3, 1171, 9.0F, 4.0F, 6, () -> {
+		return Ingredient.fromItems(ModItems.RUBY.get());
+	}),
+	SAPPHIRE(3, 1951, 7.0F, 2.0F, 14, () -> {
+		return Ingredient.fromItems(ModItems.SAPPHIRE.get());
+	}),
 	SILVER(2, 160, 9.0F, 1.0F, 18, () -> {
 		return Ingredient.fromItems(ModItems.SILVER_INGOT.get());
 	});

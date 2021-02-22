@@ -1,14 +1,25 @@
 {
 	"block.terafor.copper_block": "Block of Copper",
+	"block.terafor.ruby_block": "Block of Ruby",
+	"block.terafor.sapphire_block": "Block of Sapphire",
 	"block.terafor.silver_block": "Block of Silver",
 
 	"block.terafor.copper_ore": "Copper Ore",
+	"block.terafor.ruby_ore": "Ruby Ore",
+	"block.terafor.sapphire_ore": "Sapphire Ore",
 	"block.terafor.silver_ore": "Silver Ore",
 
+	"item.terafor.ruby": "Ruby",
+	"item.terafor.sapphire": "Sapphire",
+
 	"item.terafor.copper_axe": "Copper Axe",
+	"item.terafor.ruby_axe": "Ruby Axe",
+	"item.terafor.sapphire_axe": "Sapphire Axe",
 	"item.terafor.silver_axe": "Silver Axe",
 
 	"item.terafor.copper_hoe": "Copper Hoe",
+	"item.terafor.ruby_hoe": "Ruby Hoe",
+	"item.terafor.sapphire_hoe": "Sapphire Hoe",
 	"item.terafor.silver_hoe": "Silver Hoe",
 
 	"item.terafor.copper_ingot": "Copper Ingot",
@@ -18,24 +29,38 @@
 	"item.terafor.silver_nugget": "Silver Nugget",
 
 	"item.terafor.copper_pickaxe": "Copper Pickaxe",
+	"item.terafor.ruby_pickaxe": "Ruby Pickaxe",
+	"item.terafor.sapphire_pickaxe": "Sapphire Pickaxe",
 	"item.terafor.silver_pickaxe": "Silver Pickaxe",
 
 	"item.terafor.copper_shovel": "Copper Shovel",
+	"item.terafor.ruby_shovel": "Ruby Shovel",
+	"item.terafor.sapphire_shovel": "Sapphire Shovel",
 	"item.terafor.silver_shovel": "Silver Shovel",
 
 	"item.terafor.copper_sword": "Copper Sword",
+	"item.terafor.ruby_sword": "Ruby Sword",
+	"item.terafor.sapphire_sword": "Sapphire Sword",
 	"item.terafor.silver_sword": "Silver Sword",
 
 	"item.terafor.copper_helmet": "Copper Helmet",
+	"item.terafor.ruby_helmet": "Ruby Helmet",
+	"item.terafor.sapphire_helmet": "Sapphire Helmet",
 	"item.terafor.silver_helmet": "Silver Helmet",
 
 	"item.terafor.copper_chestplate": "Copper Chestplate",
+	"item.terafor.ruby_chestplate": "Ruby Chestplate",
+	"item.terafor.sapphire_chestplate": "Sapphire Chestplate",
 	"item.terafor.silver_chestplate": "Silver Chestplate",
 
 	"item.terafor.copper_leggings": "Copper Leggings",
+	"item.terafor.ruby_leggings": "Ruby Leggings",
+	"item.terafor.sapphire_leggings": "Sapphire Leggings",
 	"item.terafor.silver_leggings": "Silver Leggings",
 
 	"item.terafor.copper_boots": "Copper Boots",
+	"item.terafor.ruby_boots": "Ruby Boots",
+	"item.terafor.sapphire_boots": "Sapphire Boots",
 	"item.terafor.silver_boots": "Silver Boots",
 
 	"itemGroup.terafor": "Terafor"

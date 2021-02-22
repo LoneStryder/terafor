@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "terafor:ruby_block"
+		}
+	],
+	"result": {
+		"item": "terafor:ruby",
+		"count": 9
+	}
+}

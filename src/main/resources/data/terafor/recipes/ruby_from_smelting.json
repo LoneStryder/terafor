@@ -1,0 +1,9 @@
+{
+	"type": "minecraft:smelting",
+	"ingredient": {
+		"item": "terafor:ruby_ore"
+	},
+	"result": "terafor:ruby",
+	"experience": 1.0,
+	"cookingtime": 200
+}

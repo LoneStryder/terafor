@@ -34,6 +34,8 @@ public class Terafor {
 
 	private void setup(final FMLCommonSetupEvent event) {
 		Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, LocationHelper.modPrefix("ore_copper"), ModFeatures.ORE_COPPER);
+		Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, LocationHelper.modPrefix("ore_ruby"), ModFeatures.ORE_RUBY);
+		Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, LocationHelper.modPrefix("ore_sapphire"), ModFeatures.ORE_SAPPHIRE);
 		Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, LocationHelper.modPrefix("ore_silver"), ModFeatures.ORE_SILVER);
 	}
 

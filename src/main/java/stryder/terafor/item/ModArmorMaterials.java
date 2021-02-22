@@ -16,6 +16,12 @@ public enum ModArmorMaterials implements IArmorMaterial {
 	COPPER(Terafor.MOD_ID + ":copper", 9, new int[]{1, 3, 4, 2}, 10, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 0.0F, 0.0F, () -> {
 		return Ingredient.fromItems(ModItems.COPPER_INGOT.get());
 	}),
+	RUBY(Terafor.MOD_ID + ":ruby", 36, new int[]{3, 6, 8, 3}, 6, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 0.0F, 0.0F, () -> {
+		return Ingredient.fromItems(ModItems.RUBY.get());
+	}),
+	SAPPHIRE(Terafor.MOD_ID + ":sapphire", 30, new int[]{3, 6, 8, 3}, 14, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 0.0F, 0.0F, () -> {
+		return Ingredient.fromItems(ModItems.SAPPHIRE.get());
+	}),
 	SILVER(Terafor.MOD_ID + ":silver", 13, new int[]{2, 4, 5, 2}, 20, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 0.0F, 0.0F, () -> {
 		return Ingredient.fromItems(ModItems.SILVER_INGOT.get());
 	});

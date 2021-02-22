@@ -1,0 +1,16 @@
+{
+	"replace": false,
+	"values": [
+		"terafor:ruby",
+		"terafor:ruby_block",
+		"terafor:ruby_sword",
+		"terafor:ruby_pickaxe",
+		"terafor:ruby_shovel",
+		"terafor:ruby_axe",
+		"terafor:ruby_hoe",
+		"terafor:ruby_helmet",
+		"terafor:ruby_chestplate",
+		"terafor:ruby_leggings",
+		"terafor:ruby_boots"
+	]
+}

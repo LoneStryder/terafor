@@ -1,0 +1,9 @@
+{
+	"type": "minecraft:smelting",
+	"ingredient": {
+		"item": "terafor:sapphire_ore"
+	},
+	"result": "terafor:sapphire",
+	"experience": 1.0,
+	"cookingtime": 200
+}
